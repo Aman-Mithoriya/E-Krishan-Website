@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %} Rajasthan {% endblock title %}
+
+
+{% block body %}
+<br><br>
+<style>
+table {
+  margin: auto;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<table>
+  <tr>
+    <th>S.No.</th>
+    <th>States</th>
+    <th>Number of Hospitals</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>Jodhpur</td>
+    <td>_</td>
+    <td><a href="/jodhpur">Click Here</a></td>
+  </tr>
+  
+</table>
+
+{% endblock body %}

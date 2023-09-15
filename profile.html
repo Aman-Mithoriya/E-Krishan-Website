@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %} Profile {% endblock title %}
+
+
+{% block body %}
+<h1 style="text-align: center;margin: 10px;">Welcome {{request.user}}</h1>
+<div class="container" style="font-size: large; margin: 10px; position: absolute; left: 50px;">
+    Name : {{ user.userprofile.first_name }}
+</div>
+{% endblock body %}
+
+

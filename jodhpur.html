@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %} Jodhpur {% endblock title %}
+{% block body %}
+<br>
+<style>
+table {
+  margin: auto;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<table>
+  <tr>
+    <th>S.No.</th>
+    <th>Hospital</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>IITJ PHC</td>
+    <td><a href="/iitjphc">Click Here</a></td>
+  </tr>
+  
+</table>
+{% endblock body %}
